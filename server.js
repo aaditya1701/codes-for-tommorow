@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
 app.use("/api",productRoute);
 
 
-app.listen(3000,()=>{
+app.listen(envData.port,()=>{
     console.log("server On");
 });
 
